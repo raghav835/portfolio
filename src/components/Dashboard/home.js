@@ -10,7 +10,7 @@ const Home = () => {
     const [image, setImage] = useState(null);
     const [loading, setLoading] = useState(false);
 
-    const form = useRef();
+    //const form = useRef();
 
     const handleFileChange = (e) => {
         setImage(e.target.files[0]);
